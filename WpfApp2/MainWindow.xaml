@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="LightYellow">
+
+        <TextBlock x:Name="books"  HorizontalAlignment="Left" Margin="330,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" Height="323" FontSize="20" Background="White" />
+        <Button Content="AddBook" HorizontalAlignment="Left" Margin="225,208,0,0" VerticalAlignment="Top" Width="81" Height="32" Background="Green" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="ShowBooks" HorizontalAlignment="Left" Margin="111,35,0,0" VerticalAlignment="Top" Width="81" Height="32" Background="Green" Foreground="White" Click="Button_Click"/>
+
+        <TextBox x:Name="bkName" HorizontalAlignment="Left" Margin="92,151,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Height="32"/>
+        <TextBox x:Name="bkPages" HorizontalAlignment="Left" Margin="92,266,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Height="32"/>
+        <TextBox x:Name="bkPrice" HorizontalAlignment="Left" Margin="92,208,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Height="32"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="129,130,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="130,245,0,0" TextWrapping="Wrap" Text="Pages" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="129,185,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top"/>
+        <TextBlock Text="              Books" HorizontalAlignment="Left" Margin="376,22,0,0" VerticalAlignment="Top" Width="334" FontSize="34" Background="Green" Foreground="White" Height="44"/>
+
+
+
+
+
+    </Grid>
+</Window>
